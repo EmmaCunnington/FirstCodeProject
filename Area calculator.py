@@ -5,7 +5,7 @@
 
 print ('Area calculator is starting!')
 
-option = input('Enter C for Circle or T for Triangle: ')
+option = (input('Enter C for Circle or T for Triangle: ')).upper()
 
 if option == 'C': 
   radius = float(input('Please enter the radius of the circle: '))
