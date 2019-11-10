@@ -20,6 +20,7 @@ def roll_dice(number_of_sides):
   guess = get_user_guess()
   if guess > max_val:
     print ('That guess is too big!')
+    print(6)
   else:
     print ('Rolling...')
     sleep(1)
