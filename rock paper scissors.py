@@ -17,9 +17,9 @@ message = {
 }
 
 def decide_winner(user_choice, computer_choice):
-  print ('You selected: %s') % (user_choice) #why doesn't it like this??
+  print(('You selected: %s') % (user_choice)) #why doesn't it like this??
   # unsupported operand type(s) for %: 'NoneType' and 'str'
-  print ('Computer selected: %s') % (computer_choice)
+  print(('Computer selected: %s') % (computer_choice))
   if user_choice == computer_choice:
     print (message['tie'])
   elif user_choice == options[0] and computer_choice == options[2]:
